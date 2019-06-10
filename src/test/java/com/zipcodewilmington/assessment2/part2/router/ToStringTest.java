@@ -36,9 +36,9 @@ public class ToStringTest {
                 new Pair<>("/instructors", "InstructorController"));
     }
 
-    @Test
+//    @Test
     public void test(Pair<String, String>... pairs) {
-        // given
+//         given
         StringBuilder expectedString = new StringBuilder();
         Router router = new Router();
         for (Pair<String, String> pair : pairs) {
